@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  <parameter name="user" value="neelakandan"/>
+  <parameter name="pass" value="neelakandan"/>
+  <parameter name="fname" value="Neelakandan"/>
+  <parameter name="lname" value="Ravi"/>
+  <parameter name="Billaddress" value="No.19,anand nagar,thuraipakkam,chennai"/>
+  <parameter name="ccno" value="7894561237894561"/>
+  <parameter name="cvv" value="1234"/>
+  <parameter name="loc" value="D:\\NEELAKANDAN\\Neela.xlsx"/>
+  <parameter name="sname" value="adactin"/>
+  <parameter name="celnum" value="0"/>
+  
+    <classes>
+      <class name="org.test.TestCase"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

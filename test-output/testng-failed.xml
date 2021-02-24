@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <parameter name="fname" value="Neelakandan"/>
+    <parameter name="loc" value="D:\\NEELAKANDAN\\Neela.xlsx"/>
+    <parameter name="lname" value="Ravi"/>
+    <parameter name="cvv" value="1234"/>
+    <parameter name="pass" value="neelakandan"/>
+    <parameter name="sname" value="adactin"/>
+    <parameter name="Billaddress" value="No.19,anand nagar,thuraipakkam,chennai"/>
+    <parameter name="user" value="neelakandan"/>
+    <parameter name="celnum" value="0"/>
+    <parameter name="ccno" value="7894561237894561"/>
+    <classes>
+      <class name="org.test.TestCase">
+        <methods>
+          <include name="tc2"/>
+          <include name="tc4"/>
+          <include name="tc3"/>
+          <include name="tc1"/>
+          <include name="tc0"/>
+        </methods>
+      </class> <!-- org.test.TestCase -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
