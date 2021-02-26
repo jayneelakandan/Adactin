@@ -10,6 +10,9 @@ public class BookHotel extends Base{
 public BookHotel() {
 PageFactory.initElements(driver, this);
 }
+@FindBy(id="first_name")//new for git
+private WebElement Name;//new for git
+
 	@FindBy(id="first_name")
 	private WebElement fName;
 	
